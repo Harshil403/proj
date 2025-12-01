@@ -6,7 +6,7 @@ const PORT = 3000;
 
 // ROUTE 1: Public route
 app.get("/", (req, res) => {
-  res.send("Hello, world with CI/CD from git!");
+  res.send("Hello, world with CI/CD from!");
 });
 
 // Basic Auth Middleware
